@@ -149,7 +149,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival:: @ 81F9E36
 	clearflag FLAG_HIDE_ROUTE_101_BOY
 	setvar VAR_BIRCH_LAB_STATE, 3
 	addobject 7
-	setfollower 7, 0xF
+	setfollower 7, 0x7F
 	updatefollowerpokemongraphic
 	releaseall
 	end
